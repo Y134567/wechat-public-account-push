@@ -20,15 +20,15 @@ export const USER_CONFIG = {
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
-    weather: true,
+    weather: false,
     
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -44,14 +44,14 @@ export const USER_CONFIG = {
     horoscope: false,
     
     /** 生日消息和节日消息 */
-    birthdayMessage: true,
+    birthdayMessage: false,
   },
   
   /** 每日一言 */
   
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: "",
+  LITERARY_PREFERENCE: "小说",
   
   
   /**
@@ -68,7 +68,7 @@ export const USER_CONFIG = {
       // 所在省份
       province: "广东",
       // 所在城市
-      city: "肇庆",
+      city: "深圳",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -139,7 +139,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "R9p1JrJTVK_2aKILsUTdo7R2r7Nf_ZdkJcnbK5oDDGc",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -147,7 +147,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oCa0L6-1Ybe9PrX1c5iFo_V08lBs",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -162,7 +162,7 @@ export const USER_CONFIG = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "广东",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "深圳",
   
   /** 重要节日相关 */
   
